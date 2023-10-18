@@ -9,7 +9,7 @@ let oi = `*creadora🤖 https://wa.me/5493813300744* ${pesan}`
 let teks = `*_ACTIVENSE , MUAKII_* 🫶🏼🤍\n\n ${oi}\n\n🫶🏻 ➢ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂\n`
 for (let mem of participants) {
 teks += 💋➤  @${mem.id.split('@')[0]}\n`}
-teks += `*SexyKitty*\n\n*😘❤️*`
+teks += `*Kittysxi*\n\n*😘❤️*`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 conn.sendFile(m.chat, vn, 'Invocar.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true })
 }
